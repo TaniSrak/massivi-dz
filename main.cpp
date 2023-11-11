@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 #include <ctime>
 #include <cstdlib>
 #include <algorithm>
@@ -32,12 +32,12 @@ int main() {
 		{
 			sum += array[i][j];
 		}
-		std::cout << "ñóììà ðÿäà " << i + 1 << " = " << sum << '\n';
+		std::cout << "ÑÑƒÐ¼Ð¼Ð° Ñ€ÑÐ´Ð° " << i + 1 << " = " << sum << '\n';
 	}
 	std::cout << "\n\n";
 
 	//task3
-	std::cout << "Ââåäèòå ÷èñëî îò 0 äî 9 -> ";
+	std::cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð¾ Ð¾Ñ‚ 0 Ð´Ð¾ 9 -> ";
 	std::cin >> n;
 
 	for (int i = 0; i < row; i++)
@@ -51,7 +51,7 @@ int main() {
 		}
 	}
 
-		std::cout << "Îòñîðòèðîâàííûé ìàññèâ:\n{ ";
+		std::cout << "ÐžÑ‚ÑÐ¾Ñ€Ñ‚Ð¸Ñ€Ð¾Ð²Ð°Ð½Ð½Ñ‹Ð¹ Ð¼Ð°ÑÑÐ¸Ð²:\n{ ";
 
 			for (int j = 0; j < col; j++)
 				std::cout << array[n][j] << ", ";
